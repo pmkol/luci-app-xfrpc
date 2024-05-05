@@ -5,7 +5,7 @@ luci for xfrpc
 
 ```
 git clone https://github.com/openwrt/luci.git
-git clone https://github.com/liudf0716/luci-app-xfrpc.git
+git clone https://github.com/pmkol/luci-app-xfrpc.git
 # replace luci-app-xfrpc
 rm -rf luci/applications/luci-app-xfrpc
 cp -r luci-app-xfrpc luci/applications
