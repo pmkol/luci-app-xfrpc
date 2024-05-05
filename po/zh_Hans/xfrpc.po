@@ -43,8 +43,8 @@ msgid "Custom domains"
 msgstr "自定义域"
 
 #: applications/luci-app-xfrpc/htdocs/luci-static/resources/view/xfrpc.js:90
-msgid "Disabled xfrpc service"
-msgstr "禁止启动xfrpc服务"
+msgid "Enable xfrpc service"
+msgstr "启动xfrpc服务"
 
 #: applications/luci-app-xfrpc/htdocs/luci-static/resources/view/xfrpc.js:120
 msgid "General Settings"
