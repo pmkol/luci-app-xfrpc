@@ -3,10 +3,10 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI Support for xfrpc
-LUCI_DEPENDS:=+xfrpc +luci-lib-httpclient
+LUCI_DEPENDS:=+xfrpc
 
 PKG_LICENSE:=Apache-2.0
-PKG_MAINTAINER:=Dengfeng Liu <liu_df@qq.com>
+PKG_MAINTAINER:=MapleCool <pmkol@foxmail.com>
 
 include ../../luci.mk
 
