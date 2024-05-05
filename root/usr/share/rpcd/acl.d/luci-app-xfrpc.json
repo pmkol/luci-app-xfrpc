@@ -2,9 +2,12 @@
 	"luci-app-xfrpc": {
 		"description": "Grant access to LuCI app xfrpc",
 		"read": {
+			"file": {
+				"/etc/passwd": ["read"],
+				"/etc/group": ["read"]
+			},
 			"ubus": {
-				"service": [ "list" ],
-				"luci": [ "callInstaLoader" ]
+				"service": [ "list" ]
 			},
 			"uci": ["xfrpc"]
 		},
